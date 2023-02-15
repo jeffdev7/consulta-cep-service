@@ -1,0 +1,11 @@
+C:\Users\Jefferson\Documents\CEP-lookup\CEP-lookup\bin\Debug\CEP-lookup.exe.config
+C:\Users\Jefferson\Documents\CEP-lookup\CEP-lookup\bin\Debug\CEP-lookup.exe
+C:\Users\Jefferson\Documents\CEP-lookup\CEP-lookup\bin\Debug\CEP-lookup.pdb
+C:\Users\Jefferson\Documents\CEP-lookup\CEP-lookup\obj\Debug\CEP-lookup.csproj.AssemblyReference.cache
+C:\Users\Jefferson\Documents\CEP-lookup\CEP-lookup\obj\Debug\CEP-lookup.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jefferson\Documents\CEP-lookup\CEP-lookup\obj\Debug\CEP_lookup.Form1.resources
+C:\Users\Jefferson\Documents\CEP-lookup\CEP-lookup\obj\Debug\CEP_lookup.Properties.Resources.resources
+C:\Users\Jefferson\Documents\CEP-lookup\CEP-lookup\obj\Debug\CEP-lookup.csproj.GenerateResource.cache
+C:\Users\Jefferson\Documents\CEP-lookup\CEP-lookup\obj\Debug\CEP-lookup.csproj.CoreCompileInputs.cache
+C:\Users\Jefferson\Documents\CEP-lookup\CEP-lookup\obj\Debug\CEP-lookup.exe
+C:\Users\Jefferson\Documents\CEP-lookup\CEP-lookup\obj\Debug\CEP-lookup.pdb
