@@ -10,18 +10,13 @@ namespace CEP_lookup
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            txtCEP.Text = "000000-000";
-        }
-
         private void txtCEP_KeyDown(object sender, KeyEventArgs e)
         {
             using (var cep = new CepService.AtendeClienteClient())
             {
                 try
                 {
-                    if(e.KeyCode == Keys.Enter)
+                    if (e.KeyCode == Keys.Enter)
                     {
                         var result = cep.consultaCEP(txtCEP.Text);
 
@@ -33,9 +28,19 @@ namespace CEP_lookup
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message, "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    txtCEP.Text = "";
+                    txtAddress.Text = "";
+                    txtBairro.Text = "";
+                    txtCity.Text = "";
+                    txtUF.Text = "";
                 }
             }
+        }
+
+        private void txtCEP_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsLetter(e.KeyChar);
         }
     }
 }

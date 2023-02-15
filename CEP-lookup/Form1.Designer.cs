@@ -93,6 +93,7 @@
             this.txtCEP.Size = new System.Drawing.Size(129, 22);
             this.txtCEP.TabIndex = 5;
             this.txtCEP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCEP_KeyDown);
+            this.txtCEP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCEP_KeyPress);
             // 
             // txtBairro
             // 
@@ -144,7 +145,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consulte CEP";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
